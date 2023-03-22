@@ -1,7 +1,7 @@
 ---
 name: Run black
 
-defaults:
+defaults: 
   run:
     # To load bashrc
     shell: bash -ieo pipefail {0}
