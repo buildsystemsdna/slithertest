@@ -29,6 +29,6 @@ cd ../../.. || exit
 # Needed for evm printer
 pip install evm-cfg-builder
 solc-select use "0.5.1"
-if ! slither examples/scripts/test_evm_api.sol --print evm; then
+if ! slither examples/scripts/nft.sol --print nft; then
   echo "EVM printer failed"
 fi
