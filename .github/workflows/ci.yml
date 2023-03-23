@@ -42,7 +42,9 @@ jobs:
                "simil",
                "slither_config",
                "truffle",
-               "upgradability"]
+               "upgradability",
+               "slither-prop",
+               "NFT"]
         exclude:
           # Requires nix
           - os: windows-2022
